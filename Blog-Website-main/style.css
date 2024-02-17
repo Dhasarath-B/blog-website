@@ -1,0 +1,110 @@
+*{
+    margin:0;
+}
+
+
+
+.body-bg{
+    background-image: url(./img/flat-lay-workstation-with-copy-space-laptop.jpg) !important;
+    background-color: #000000; 
+    height: 100vh !important; 
+    width:100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin-bottom: 1px;
+    opacity: 0.3 !important;
+    position: absolute;
+    z-index: -1;
+}
+
+.navbar-class{
+    display: flex;
+
+}
+
+.logo{
+    width:90px;
+    height:90px;
+    background-color: black;
+    border-radius:50%;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.logo-name{
+    align-item:left;
+    margin-top:28px;
+    margin-left:5px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title{
+    font-size: 120px;
+    margin-top:90px;
+    color:rgb(48, 12, 12);
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; 
+}
+
+/*card elements*/
+
+.card-1{
+    border: 1px solid black;
+    border-radius:5px;
+    margin-left:5px !important;
+    width:fit-content
+}
+
+.card-date{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:10px 10px 0px 10px;
+}
+
+.card-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:5px 5px;
+}
+
+.card-para{
+    color: #4f3232;
+    padding: 0px 5px;
+    font-size: 15px;
+}
+
+.card-footer{
+    display:  flex;
+    justify-content: space-around;
+}
+
+
+.card-row-1{
+    display:flex;
+    gap: 15px;
+    margin-bottom:15px;
+}
+
+.copy{
+    background-color: black;
+    color: white;
+}
+
+/*card-element-hover*/
+
+
+.card-title:hover{
+    color: #d24b4b;
+}
+
+.card-para:hover{
+    color:rgb(126, 15, 15)
+}
+
+
